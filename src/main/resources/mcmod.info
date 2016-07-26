@@ -1,0 +1,16 @@
+[
+{
+  "modid": "zoology",
+  "name": "Zoology",
+  "description": "Animal Breeding",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["RWTema"],
+  "credits": "",
+  "logoFile": "/assets/zoology/textures/logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,56 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Gradle
+build
+.gradle
+
+# Minecraft
+run
+
+# IntelliJ
+out
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keystore
+keystore/*
+
+# Decomp
+decomp/*
+
+libs/*.jar
+*~
+eclipse/
+CREDITS-fml.txt
+LICENSE-new.txt
+MinecraftForge-Credits.txt
+Paulscode IBXM Library License.txt
+Paulscode SoundSystem CodecIBXM License.txt
+README.txt
+forge-1.10.2-12.18.1.2014-changelog.txt
+LICENSE-fml.txt
+MinecraftForge-License.txt
+forge-1.9-12.16.0.1865-1.9-changelog.txt

@@ -1,0 +1,27 @@
+# Phenotypes #
+
+#Continuous#
+-- Attack
+-- Health
+-- Size
+-- Speed
+-- Damage Resistance
+-- Aging Speed
+-- Romantic Cooldown
+-- Drop Chance
+-- Shedding Chance
+-- Additional Offspring Chance
+
+#Traits#
+-- Super-Passive
+-- Aggressive
+-- Infertile
+-- Thorny
+-- Fire Resistant/Infernal
+-- Explosive
+-- Silent
+
+
+#Meta#
+Average
+Golden

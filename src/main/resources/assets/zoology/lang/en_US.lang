@@ -1,0 +1,56 @@
+item.zoology.magnifying_glass.name=Animal Magnifying Glass
+
+effect.zoology.radiation=Genetic Corruption
+potion.effect.zoology.radiation=Potion of Genetic Corruption
+splash_potion.effect.zoology.radiation=Splash Potion of Genetic Corruption
+lingering_potion.effect.zoology.radiation=Lingering Potion of Genetic Corruption
+tipped_arrow.effect.zoology.radiation=Arrow of Genetic Corruption
+
+effect.zoology.clone=Cloning
+potion.effect.zoology.clone=Potion of Cloning
+splash_potion.effect.zoology.clone=Splash Potion of Cloning
+lingering_potion.effect.zoology.clone=Lingering Potion of Cloning
+tipped_arrow.effect.zoology.clone=Arrow of Cloning
+
+effect.zoology.autogamy=Autogamy
+potion.effect.zoology.autogamy=Potion of Autogamy
+splash_potion.effect.zoology.autogamy=Splash Potion of Autogamy
+lingering_potion.effect.zoology.autogamy=Lingering Potion of Autogamy
+tipped_arrow.effect.zoology.autogamy=Arrow of Autogamy
+
+zoology.mutation.message=You feel a strange popping sensation in your lower torso.
+
+zoology.phenotype.flag.glow=Glowing
+zoology.phenotype.inbred.minor=Minor Inbreeding
+zoology.phenotype.inbred.significant=Substantial Inbreeding
+zoology.phenotype.inbred.major=Major Inbreeding
+zoology.phenotype.inbred.royal=Royal Inbreeding
+
+zoology.phenotype.flag.infertile.on=Infertile
+zoology.phenotype.flag.infertile.off=Fertile
+zoology.phenotype.flag.tri_headed=Three Headed
+zoology.phenotype.maxHealth=Maximum Health
+zoology.phenotype.wool=Wool Color
+zoology.phenotype.loving_age=Breeding Cool Down
+zoology.phenotype.growing_age=Fully Grown Time
+zoology.phenotype.movementSpeed=Movement Speed
+zoology.phenotype.drop=Drop Modifier
+zoology.phenotype.offspring_chance=Additional Offspring
+zoology.phenotype.size=Size
+
+zoology.color.black=Black 
+zoology.color.red=Red 
+zoology.color.green=Green 
+zoology.color.brown=Brown 
+zoology.color.blue=Blue 
+zoology.color.purple=Purple 
+zoology.color.cyan=Cyan 
+zoology.color.silver=Light Gray 
+zoology.color.gray=Gray 
+zoology.color.pink=Pink 
+zoology.color.lime=Lime 
+zoology.color.yellow=Yellow 
+zoology.color.lightBlue=Light Blue 
+zoology.color.magenta=Magenta 
+zoology.color.orange=Orange 
+zoology.color.white=White
