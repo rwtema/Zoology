@@ -22,6 +22,8 @@ import net.minecraft.stats.StatList;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.world.World;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.event.entity.living.BabyEntitySpawnEvent;
 
 public class EntityAICustomMate extends EntityAIMate {
 	public final PheneList<EntityAnimal> pheneList;
@@ -39,6 +41,8 @@ public class EntityAICustomMate extends EntityAIMate {
 	public static EntityAgeable mateAnimals(EntityAnimal theAnimal, EntityAnimal targetMate, boolean doXPDrops) {
 		boolean autoBreeding = theAnimal == targetMate;
 		if (!isFertile(theAnimal) || !isFertile(targetMate)) {
+			theAnimal.setGrowingAge(6000);
+			targetMate.setGrowingAge(6000);
 			theAnimal.resetInLove();
 			targetMate.resetInLove();
 			return null;
@@ -46,7 +50,18 @@ public class EntityAICustomMate extends EntityAIMate {
 
 		EntityAgeable child = theAnimal.createChild(targetMate);
 
-		if (child == null) return null;
+		final BabyEntitySpawnEvent event = new BabyEntitySpawnEvent(theAnimal, targetMate, child);
+		final boolean cancelled = MinecraftForge.EVENT_BUS.post(event);
+		child = event.getChild();
+		if (cancelled) {
+			//Reset the "inLove" state for the animals
+			theAnimal.setGrowingAge(6000);
+			targetMate.setGrowingAge(6000);
+			theAnimal.resetInLove();
+			targetMate.resetInLove();
+			return null;
+		}
+
 
 		EntityPlayer entityplayer = theAnimal.getPlayerInLove();
 
